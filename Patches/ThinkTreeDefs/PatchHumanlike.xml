@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationAdd">
-        <xpath>*/ThinkTreeDef[defName = "Humanlike"]/thinkRoot/subNodes</xpath>
+        <xpath>/Defs/ThinkTreeDef[defName = "Humanlike"]/thinkRoot/subNodes/li[@Class =
+            "ThinkNode_ConditionalColonist"]/subNodes
+        </xpath>
         <value>
-            <li Class="SR.ModRimworldTouchCat.ThinkNodeChancePerHourTouchCat">
+            <li Class="SR.ModRimWorldTouchCat.ThinkNodeChancePerHourTouchCat">
                 <subNodes>
-                    <li Class="SR.ModRimworldTouchCat.JobGiverTouchCat"/>
+                    <li Class="SR.ModRimWorldTouchCat.JobGiverTouchCat"/>
                 </subNodes>
             </li>
         </value>

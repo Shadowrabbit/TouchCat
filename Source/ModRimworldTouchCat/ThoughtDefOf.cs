@@ -9,8 +9,9 @@
 using JetBrains.Annotations;
 using RimWorld;
 
-namespace SR.ModRimworldTouchCat
+namespace SR.ModRimWorldTouchCat
 {
+	[DefOf]
 	public static class ThoughtDefOf
 	{
 		[UsedImplicitly] public static readonly ThoughtDef SrThoughtTouchCat; //撸猫后的回忆

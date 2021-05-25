@@ -6,13 +6,16 @@
 //      /  \\        @Modified   2021-05-25 17:29:08
 //    *(__\_\        @Copyright  Copyright (c) 2021, Shadowrabbit
 // ******************************************************************
+
 using JetBrains.Annotations;
+using RimWorld;
 using Verse;
 
-namespace SR.ModRimworldTouchCat
+namespace SR.ModRimWorldTouchCat
 {
-	public static class JobDefOf
-	{
-		[UsedImplicitly] public static readonly JobDef SrJobTouchCat; //撸猫
-	}
+    [DefOf]
+    public static class JobDefOf
+    {
+        [UsedImplicitly] public static readonly JobDef SrJobTouchCat; //撸猫
+    }
 }

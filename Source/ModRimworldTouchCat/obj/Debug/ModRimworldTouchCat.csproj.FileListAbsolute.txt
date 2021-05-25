@@ -1,6 +1,12 @@
-D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\bin\Debug\ModRimworldTouchCat.dll
-D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\bin\Debug\ModRimworldTouchCat.pdb
-D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\obj\Debug\ModRimworldTouchCat.csprojAssemblyReference.cache
-D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\obj\Debug\ModRimworldTouchCat.csproj.CoreCompileInputs.cache
-D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\obj\Debug\ModRimworldTouchCat.dll
-D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\obj\Debug\ModRimworldTouchCat.pdb
+D:\Projects\ModRimWorldTouchCat\Assemblies\ModRimWorldTouchCat.dll
+D:\Projects\ModRimWorldTouchCat\Assemblies\ModRimWorldTouchCat.pdb
+D:\Projects\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimworldTouchCat.csprojAssemblyReference.cache
+D:\Projects\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimworldTouchCat.csproj.CoreCompileInputs.cache
+D:\Projects\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.dll
+D:\Projects\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Assemblies\ModRimWorldTouchCat.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Assemblies\ModRimWorldTouchCat.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimworldTouchCat.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimworldTouchCat.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.pdb

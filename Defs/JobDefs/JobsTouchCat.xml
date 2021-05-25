@@ -2,7 +2,7 @@
 <Defs>
     <JobDef>
         <defName>SrJobTouchCat</defName>
-        <driverClass>SR.ModRimworldTouchCat.JobDriverTouchCat</driverClass>
+        <driverClass>SR.ModRimWorldTouchCat.JobDriverTouchCat</driverClass>
         <!-- <reportString>撸</reportString> -->
         <reportString>touch</reportString>
     </JobDef>

@@ -3,7 +3,7 @@
     <!-- 撸猫回忆 -->
     <ThoughtDef>
         <defName>SrThoughtTouchCat</defName>
-        <stackLimit>5</stackLimit>
+        <stackLimit>4</stackLimit>
         <durationDays>3.0</durationDays>
         <stages>
             <li>
