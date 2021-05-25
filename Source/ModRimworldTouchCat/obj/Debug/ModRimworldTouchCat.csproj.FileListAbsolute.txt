@@ -1,0 +1,6 @@
+D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\bin\Debug\ModRimworldTouchCat.dll
+D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\bin\Debug\ModRimworldTouchCat.pdb
+D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\obj\Debug\ModRimworldTouchCat.csprojAssemblyReference.cache
+D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\obj\Debug\ModRimworldTouchCat.csproj.CoreCompileInputs.cache
+D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\obj\Debug\ModRimworldTouchCat.dll
+D:\workPlace\ModRimworldTouchCat\Source\ModRimworldTouchCat\obj\Debug\ModRimworldTouchCat.pdb

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <JobDef>
+        <defName>SrJobTouchCat</defName>
+        <driverClass>SR.ModRimworldTouchCat.JobDriverTouchCat</driverClass>
+        <!-- <reportString>撸</reportString> -->
+        <reportString>touch</reportString>
+    </JobDef>
+</Defs>

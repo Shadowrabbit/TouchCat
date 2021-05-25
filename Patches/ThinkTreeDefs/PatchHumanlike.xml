@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>*/ThinkTreeDef[defName = "Humanlike"]/thinkRoot/subNodes</xpath>
+        <value>
+            <li Class="SR.ModRimworldTouchCat.ThinkNodeChancePerHourTouchCat">
+                <subNodes>
+                    <li Class="SR.ModRimworldTouchCat.JobGiverTouchCat"/>
+                </subNodes>
+            </li>
+        </value>
+    </Operation>
+</Patch>

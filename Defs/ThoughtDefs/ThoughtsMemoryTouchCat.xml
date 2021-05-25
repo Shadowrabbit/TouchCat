@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- 撸猫回忆 -->
+    <ThoughtDef>
+        <defName>SrThoughtTouchCat</defName>
+        <stackLimit>5</stackLimit>
+        <durationDays>3.0</durationDays>
+        <stages>
+            <li>
+                <!--<label>撸猫</label>-->
+                <!--<description>撸猫使我快乐</description>-->
+                <label>touch cat</label>
+                <description>touch cat make me happy.</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>
