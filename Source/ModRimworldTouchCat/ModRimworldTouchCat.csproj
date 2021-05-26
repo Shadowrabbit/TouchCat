@@ -46,14 +46,18 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="JobDefOf.cs" />
-        <Compile Include="JobDriverTouchCat.cs" />
-        <Compile Include="JobDriverTouchRabbit.cs" />
-        <Compile Include="JobGiverTouchCat.cs" />
-        <Compile Include="JobGiverTouchRabbit.cs" />
+        <Compile Include="AI\JobGiverTouchCat.cs" />
+        <Compile Include="AI\JobGiverTouchRabbit.cs" />
+        <Compile Include="AI\ThinkNodeChancePerHourTouchCat.cs" />
+        <Compile Include="Hediff\HediffAddictionTouchCat.cs" />
+        <Compile Include="Hediff\HediffDefOf.cs" />
+        <Compile Include="Job\JobDefOf.cs" />
+        <Compile Include="Job\JobDriverTouchCat.cs" />
+        <Compile Include="Job\JobDriverTouchRabbit.cs" />
+        <Compile Include="Need\NeedDefOf.cs" />
+        <Compile Include="Need\NeedTouchCat.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="ThinkNodeChancePerHourTouchCat.cs" />
-        <Compile Include="ThoughtDefOf.cs" />
+        <Compile Include="Thought\ThoughtDefOf.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

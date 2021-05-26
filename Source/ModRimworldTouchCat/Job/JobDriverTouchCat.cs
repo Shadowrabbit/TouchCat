@@ -50,6 +50,10 @@ namespace SR.ModRimWorldTouchCat
 			yield return Toils_General.WaitWith(TargetIndex.A, InteractiveTick, true, true);
 			//触发撸猫的回忆
 			pawn.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOf.SrThoughtTouchCat);
+			//测试代码
+			var hediff1 = HediffMaker.MakeHediff(HediffDefOf.SrHediffAddictionTouchCat, pawn);
+			hediff1.Severity = 0.6f;
+			pawn.health.AddHediff(hediff1);
 		}
 	}
 }

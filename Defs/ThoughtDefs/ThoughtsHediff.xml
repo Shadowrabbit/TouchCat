@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--撸猫成瘾hediff产生的想法-->
+    <ThoughtDef>
+        <defName>SrThoughtHediffAddictionTouchCat</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>SrHediffAddictionTouchCat</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <visible>false</visible>
+            </li>
+            <li>
+                <label>撸猫戒断</label>
+                <description>求求你让我撸一下猫吧!</description>
+                <baseMoodEffect>-30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

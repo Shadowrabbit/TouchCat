@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <NeedDef ParentName="DrugAddictionNeedBase">
+        <defName>SrNeedTouchCat</defName>
+        <needClass>SR.ModRimWorldTouchCat.NeedTouchCat</needClass>
+        <label>撸猫成瘾</label>
+        <description>由于撸猫上瘾,角色产生了定期撸猫的渴望</description>
+        <listPriority>20</listPriority>
+    </NeedDef>
+</Defs>
