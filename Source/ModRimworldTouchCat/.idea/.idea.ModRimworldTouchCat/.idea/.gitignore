@@ -2,12 +2,12 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
-/.idea.ModRimworldTouchCat.iml
-/contentModel.xml
-/modules.xml
 /projectSettingsUpdater.xml
+/modules.xml
+/contentModel.xml
+/.idea.ModRimWorldTouchCat.iml
 # Datasource local storage ignored files
-/../../../../../../../:\workPlace\ModRimworldTouchCat\ModRimworldTouchCat\.idea\.idea.ModRimworldTouchCat\.idea/dataSources/
+/../../../../../../../../../../../../../:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\.idea\.idea.ModRimWorldTouchCat\.idea/dataSources/
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/

@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    <!--撸猫工作-->
     <JobDef>
         <defName>SrJobTouchCat</defName>
         <driverClass>SR.ModRimWorldTouchCat.JobDriverTouchCat</driverClass>
-        <!-- <reportString>撸</reportString> -->
-        <reportString>touch</reportString>
+        <reportString>撸</reportString>
+    </JobDef>
+    <!--撸兔子工作-->
+    <JobDef>
+        <defName>SrJobTouchRabbit</defName>
+        <driverClass>SR.ModRimWorldTouchCat.JobDriverTouchRabbit</driverClass>
+        <reportString>撸</reportString>
     </JobDef>
 </Defs>

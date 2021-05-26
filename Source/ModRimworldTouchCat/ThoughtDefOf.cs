@@ -15,5 +15,6 @@ namespace SR.ModRimWorldTouchCat
 	public static class ThoughtDefOf
 	{
 		[UsedImplicitly] public static readonly ThoughtDef SrThoughtTouchCat; //撸猫后的回忆
+		[UsedImplicitly] public static readonly ThoughtDef SrThoughtTouchRabbit; //撸兔子后的回忆
 	}
 }

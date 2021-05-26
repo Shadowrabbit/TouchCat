@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("ModRimWorldTouchCat")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ShadowRabbit")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ModRimWorldTouchCat")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("CDD09E8D-0C16-4EBC-B209-EF8CF143D28A")]
+[assembly: Guid("B2814CDF-200D-4E60-B880-E6C263F5EC09")]
 
 // Version information for an assembly consists of the following four values:
 //

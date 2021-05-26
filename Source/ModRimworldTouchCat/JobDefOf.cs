@@ -17,5 +17,6 @@ namespace SR.ModRimWorldTouchCat
     public static class JobDefOf
     {
         [UsedImplicitly] public static readonly JobDef SrJobTouchCat; //撸猫
+        [UsedImplicitly] public static readonly JobDef SrJobTouchRabbit; //撸兔子
     }
 }
