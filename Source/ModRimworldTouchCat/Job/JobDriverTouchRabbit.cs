@@ -6,35 +6,44 @@
 //      /  \\        @Modified   2021-05-26 11:28:49
 //    *(__\_\        @Copyright  Copyright (c) 2021, Shadowrabbit
 // ******************************************************************
-using System.Collections.Generic;
+
+using System.Linq;
 using JetBrains.Annotations;
 using Verse;
-using Verse.AI;
 
 namespace SR.ModRimWorldTouchCat
 {
-	[UsedImplicitly]
-	public class JobDriverTouchRabbit : JobDriverTouchCat
-	{
-		private Pawn Rabbit => (Pawn)job.GetTarget(TargetIndex.A); //兔子
+    [UsedImplicitly]
+    public class JobDriverTouchRabbit : JobDriverTouchPet
+    {
+        protected override void OnToilsSuccess()
+        {
+            //触发撸兔子的回忆
+            pawn.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOf.SrThoughtTouchRabbit);
+            //测试代码
+            var hediff1 = HediffMaker.MakeHediff(HediffDefOf.SrHediffAddictionTouchRabbit, pawn);
+            hediff1.Severity = 0.6f;
+            pawn.health.AddHediff(hediff1);
+            CalcNeedTouchRabbit();
+        }
 
 
-		protected override IEnumerable<Toil> MakeNewToils()
-		{
-			//兔子倒地判定行为失败
-			this.FailOnDownedOrDead(TargetIndex.A);
-			//走到兔子附近
-			yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.ClosestTouch);
-			//走到兔子附近的时候 猫已经死了的情况
-			if (Rabbit.Dead)
-			{
-				yield break;
-			}
+        /// <summary>
+        /// 计算撸兔子需求
+        /// </summary>
+        private void CalcNeedTouchRabbit()
+        {
+            //如果存在撸猫需求 恢复到最高水平
+            var allNeeds = pawn.needs.AllNeeds;
+            var needTouchRabbit = allNeeds.Where(t => t.def == NeedDefOf.SrNeedTouchRabbit).Cast<NeedTouchPet>()
+                .FirstOrDefault();
+            //当前角色不存在撸猫需求
+            if (needTouchRabbit == null)
+            {
+                return;
+            }
 
-			//撸1秒
-			yield return Toils_General.WaitWith(TargetIndex.A, InteractiveTick, true, true);
-			//触发撸兔子的回忆
-			pawn.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOf.SrThoughtTouchRabbit);
-		}
-	}
+            needTouchRabbit.CurLevel = 1f;
+        }
+    }
 }

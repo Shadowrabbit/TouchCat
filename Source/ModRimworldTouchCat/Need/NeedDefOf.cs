@@ -16,5 +16,6 @@ namespace SR.ModRimWorldTouchCat
 	public static class NeedDefOf
 	{
 		[UsedImplicitly] public static readonly NeedDef SrNeedTouchCat; //定期撸猫的需求
+		[UsedImplicitly] public static readonly NeedDef SrNeedTouchRabbit; //定期撸兔子的需求
 	}
 }

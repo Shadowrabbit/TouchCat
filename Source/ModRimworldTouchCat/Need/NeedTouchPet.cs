@@ -1,6 +1,6 @@
 ﻿// ******************************************************************
-//       /\ /|       @file       NeedTouchCat.cs
-//       \ V/        @brief      撸猫需求 由撸猫成瘾Hediff控制存在
+//       /\ /|       @file       NeedTouchPet.cs
+//       \ V/        @brief      撸宠物需求 由撸宠物成瘾Hediff控制存在
 //       | "")       @author     Shadowrabbit, yingtu0401@gmail.com
 //       /  |                    
 //      /  \\        @Modified   2021-05-26 18:08:00
@@ -15,14 +15,14 @@ using Verse;
 namespace SR.ModRimWorldTouchCat
 {
 	[UsedImplicitly]
-	public class NeedTouchCat : Need
+	public class NeedTouchPet : Need
 	{
 		private const float ThreshDesire = 0.01f; //渴望临界值
 		private const float ThreshSatisfied = 0.1f; //满足临界值
 		public override int GUIChangeArrow => -1;
 		public override void SetInitialLevel() => CurLevelPercentage = Rand.Range(0.8f, 1f); //初始水平
 
-		public NeedTouchCat(Pawn pawn)
+		public NeedTouchPet(Pawn pawn)
 			: base(pawn)
 		{
 		}

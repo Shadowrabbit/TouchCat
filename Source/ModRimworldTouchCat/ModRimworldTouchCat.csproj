@@ -49,13 +49,14 @@
         <Compile Include="AI\JobGiverTouchCat.cs" />
         <Compile Include="AI\JobGiverTouchRabbit.cs" />
         <Compile Include="AI\ThinkNodeChancePerHourTouchCat.cs" />
-        <Compile Include="Hediff\HediffAddictionTouchCat.cs" />
+        <Compile Include="Hediff\HediffAddictionTouchPet.cs" />
         <Compile Include="Hediff\HediffDefOf.cs" />
         <Compile Include="Job\JobDefOf.cs" />
         <Compile Include="Job\JobDriverTouchCat.cs" />
+        <Compile Include="Job\JobDriverTouchPet.cs" />
         <Compile Include="Job\JobDriverTouchRabbit.cs" />
         <Compile Include="Need\NeedDefOf.cs" />
-        <Compile Include="Need\NeedTouchCat.cs" />
+        <Compile Include="Need\NeedTouchPet.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Thought\ThoughtDefOf.cs" />
     </ItemGroup>

@@ -4,12 +4,12 @@
     <JobDef>
         <defName>SrJobTouchCat</defName>
         <driverClass>SR.ModRimWorldTouchCat.JobDriverTouchCat</driverClass>
-        <reportString>撸</reportString>
+        <reportString>正在撸猫</reportString>
     </JobDef>
     <!--撸兔子工作-->
     <JobDef>
         <defName>SrJobTouchRabbit</defName>
         <driverClass>SR.ModRimWorldTouchCat.JobDriverTouchRabbit</driverClass>
-        <reportString>撸</reportString>
+        <reportString>正在撸兔子</reportString>
     </JobDef>
 </Defs>
