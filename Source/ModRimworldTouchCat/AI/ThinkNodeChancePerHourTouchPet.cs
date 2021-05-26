@@ -1,5 +1,5 @@
 ﻿// ******************************************************************
-//       /\ /|       @file       ThinkNodeChancePerHourTouchCat.cs
+//       /\ /|       @file       ThinkNodeChancePerHourTouchPet.cs
 //       \ V/        @brief      行为树条件节点 每小时触发撸猫的概率
 //       | "")       @author     Shadowrabbit, yingtu0401@gmail.com
 //       /  |                    
@@ -14,7 +14,7 @@ using Verse.AI;
 namespace SR.ModRimWorldTouchCat
 {
 	[UsedImplicitly]
-	public class ThinkNodeChancePerHourTouchCat : ThinkNode_ChancePerHour
+	public class ThinkNodeChancePerHourTouchPet : ThinkNode_ChancePerHour
 	{
 		private const float MtbHoursTouchCat = 48f;
 

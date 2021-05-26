@@ -48,7 +48,10 @@
     <ItemGroup>
         <Compile Include="AI\JobGiverTouchCat.cs" />
         <Compile Include="AI\JobGiverTouchRabbit.cs" />
-        <Compile Include="AI\ThinkNodeChancePerHourTouchCat.cs" />
+        <Compile Include="AI\ThinkNodeChancePerHourTouchPet.cs" />
+        <Compile Include="AI\ThinkNodeConditionalSatisfyTouchCat.cs" />
+        <Compile Include="AI\ThinkNodeConditionalSatisfyTouchRabbit.cs" />
+        <Compile Include="Def\MainDef.cs" />
         <Compile Include="Hediff\HediffAddictionTouchPet.cs" />
         <Compile Include="Hediff\HediffDefOf.cs" />
         <Compile Include="Job\JobDefOf.cs" />
