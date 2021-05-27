@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!--    <SrNeedTouchCat.label>撸猫成瘾</SrNeedTouchCat.label>-->
+    <SrNeedTouchCat.label>Cat addiction</SrNeedTouchCat.label>
+    <!--    <SrNeedTouchCat.description>由于撸猫上瘾,角色产生了定期撸猫的渴望</SrNeedTouchCat.description>-->
+    <SrNeedTouchCat.description>Due to the addiction of touching cats, the character has a desire to touch cats
+        regularly.
+    </SrNeedTouchCat.description>
+    <!--    <SrNeedTouchRabbit.label>撸兔子成瘾</SrNeedTouchRabbit.label>-->
+    <SrNeedTouchRabbit.label>Rabbit addiction</SrNeedTouchRabbit.label>
+    <!--    <SrNeedTouchRabbit.description>由于撸兔子上瘾,角色产生了定期撸兔子的渴望</SrNeedTouchRabbit.description>-->
+    <SrNeedTouchRabbit.description>Due to the addiction of touching rabbits, the character has a desire to touch rabbits
+        regularly.
+    </SrNeedTouchRabbit.description>
+</LanguageData>

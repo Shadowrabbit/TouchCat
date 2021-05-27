@@ -17,4 +17,21 @@
             </li>
         </stages>
     </ThoughtDef>
+    <!--撸兔子成瘾hediff产生的想法-->
+    <ThoughtDef>
+        <defName>SrThoughtHediffAddictionTouchRabbit</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>SrHediffAddictionTouchRabbit</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <visible>false</visible>
+            </li>
+            <li>
+                <label>恋兔戒断</label>
+                <description>兔子!我要兔子!</description>
+                <baseMoodEffect>-30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
 </Defs>

@@ -39,7 +39,7 @@ namespace SR.ModRimWorldTouchCat
 		private void CalcAddiction()
 		{
 			//已经成瘾 不会重复触发
-			if (Enumerable.Any(pawn.health.hediffSet.hediffs, heddif => heddif.def == HediffDefOf.SrHediffAddictionTouchCat))
+			if (Enumerable.Any(pawn.health.hediffSet.hediffs, heddif => heddif.def == HediffDefOf.SrHediffAddictionTouchRabbit))
 			{
 				return;
 			}

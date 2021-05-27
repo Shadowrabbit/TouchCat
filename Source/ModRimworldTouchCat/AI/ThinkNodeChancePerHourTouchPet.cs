@@ -16,7 +16,7 @@ namespace SR.ModRimWorldTouchCat
 	[UsedImplicitly]
 	public class ThinkNodeChancePerHourTouchPet : ThinkNode_ChancePerHour
 	{
-		private const float MtbHoursTouchCat = 48f;
+		private const float MtbHoursTouchCat = 20f;
 
 		/// <summary>
 		/// 每小时N分之一的概率触发撸猫

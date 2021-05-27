@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!--    <SrHediffAddictionTouchCat.label>撸猫成瘾</SrHediffAddictionTouchCat.label>-->
+    <SrHediffAddictionTouchCat.label>Cat addiction</SrHediffAddictionTouchCat.label>
+    <!--    <SrHediffAddictionTouchCat.description>长期撸猫导致角色对撸猫产生了依赖</SrHediffAddictionTouchCat.description>-->
+    <SrHediffAddictionTouchCat.description>Long-term touching the cat has caused the character to become dependent on
+        touching the cat.
+    </SrHediffAddictionTouchCat.description>
+    <!--    <SrHediffAddictionTouchRabbit.label>撸兔子成瘾</SrHediffAddictionTouchRabbit.label>-->
+    <SrHediffAddictionTouchRabbit.label>Rabbit addiction</SrHediffAddictionTouchRabbit.label>
+    <!--    <SrHediffAddictionTouchRabbit.description>长期撸兔子导致角色对撸兔子产生了依赖</SrHediffAddictionTouchRabbit.description>-->
+    <SrHediffAddictionTouchRabbit.description>Long-term touching the rabbit has caused the character to become dependent
+        on touching the rabbit.
+    </SrHediffAddictionTouchRabbit.description>
+</LanguageData>
