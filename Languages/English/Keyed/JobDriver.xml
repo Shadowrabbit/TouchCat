@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!--<MsgTouchPetJoin>{0}温柔的抚摸使{1}乖巧地选择加入殖民者。</MsgTouchPetJoin>-->
+    <MsgTouchPetJoin>The gentle touch of {0} makes {1} cleverly choose to join the colonists.</MsgTouchPetJoin>
+    <!--<MsgAddictionTouchRabbit>{0}沉迷撸兔子了,{0}如果没有定期撸兔子,戒断反应就会开始。</MsgAddictionTouchRabbit>-->
+    <MsgAddictionTouchRabbit>{0} is addicted to touch the rabbit. {0} If don’t touch the rabbit regularly, the
+        withdrawal reaction will begin.
+    </MsgAddictionTouchRabbit>
+    <!--<MsgAddictionTouchCat>{0}沉迷撸猫无法自拔,{0}如果没有定期撸撸猫,戒断反应就会开始。</MsgAddictionTouchCat>-->
+    <MsgAddictionTouchCat>{0} is addicted to touch the cat. {0} If don’t touch the cat regularly, the withdrawal
+        reaction will begin.
+    </MsgAddictionTouchCat>
+</LanguageData>

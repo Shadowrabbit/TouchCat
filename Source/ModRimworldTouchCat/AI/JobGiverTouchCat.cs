@@ -38,7 +38,7 @@ namespace SR.ModRimWorldTouchCat
         }
 
         /// <summary>
-        /// 在小人当前的地图 20单位范围内找只猫
+        /// 在小人当前的地图 30单位范围内找只猫
         /// </summary>
         /// <returns></returns>
         private static Pawn FindCat(Thing pawn)
@@ -54,7 +54,7 @@ namespace SR.ModRimWorldTouchCat
                 }
 
                 //当前pawn种族不是猫
-                if (!anyPawn.kindDef.defName.Equals(MainDef.CatKindDefName))
+                if (!anyPawn.kindDef.defName.Equals(ModDef.KindDefNameCat))
                 {
                     continue;
                 }

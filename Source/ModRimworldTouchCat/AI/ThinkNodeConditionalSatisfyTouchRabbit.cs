@@ -31,7 +31,7 @@ namespace SR.ModRimWorldTouchCat
         {
             var allNeeds = pawn.needs.AllNeeds;
             return Enumerable.Any(allNeeds,
-                need => need.def.defName.Equals(MainDef.RabbitKindDefName) && ShouldSatisfy(need));
+                need => need.def.defName.Equals(ModDef.NeedDefNameTouchRabbit) && ShouldSatisfy(need));
         }
     }
 }

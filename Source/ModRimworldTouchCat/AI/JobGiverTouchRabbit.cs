@@ -38,7 +38,7 @@ namespace SR.ModRimWorldTouchCat
         }
 
         /// <summary>
-        /// 在小人当前的地图 20单位范围内找只兔子
+        /// 在小人当前的地图 30单位范围内找只兔子
         /// </summary>
         /// <returns></returns>
         private static Pawn FindRabbit(Thing pawn)
@@ -54,7 +54,7 @@ namespace SR.ModRimWorldTouchCat
                 }
 
                 //当前pawn种族不是兔子
-                if (!anyPawn.kindDef.defName.Equals(MainDef.RabbitKindDefName))
+                if (!anyPawn.kindDef.defName.Equals(ModDef.KindDefNameRabbit))
                 {
                     continue;
                 }
