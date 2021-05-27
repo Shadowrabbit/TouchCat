@@ -4,7 +4,7 @@
     <ThoughtDef>
         <defName>SrThoughtTouchCat</defName>
         <stackLimit>3</stackLimit>
-        <durationDays>1.0</durationDays>
+        <durationDays>3.0</durationDays>
         <stages>
             <li>
                 <label>撸了猫</label>
@@ -17,7 +17,7 @@
     <ThoughtDef>
         <defName>SrThoughtTouchRabbit</defName>
         <stackLimit>3</stackLimit>
-        <durationDays>1.0</durationDays>
+        <durationDays>3.0</durationDays>
         <stages>
             <li>
                 <label>撸了兔子</label>

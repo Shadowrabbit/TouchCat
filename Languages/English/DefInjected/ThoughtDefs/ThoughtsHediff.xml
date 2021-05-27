@@ -1,15 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     <!--    <SrThoughtHediffAddictionTouchCat.stages.2.label>撸猫戒断</SrThoughtHediffAddictionTouchCat.stages.2.label>-->
-    <SrThoughtHediffAddictionTouchCat.stages.2.label>Cat withdrawal</SrThoughtHediffAddictionTouchCat.stages.2.label>
+    <SrThoughtHediffAddictionTouchCat.stages.1.label>Cat withdrawal</SrThoughtHediffAddictionTouchCat.stages.1.label>
     <!--    <SrThoughtHediffAddictionTouchCat.stages.2.description>求求你让我撸一下猫吧!</SrThoughtHediffAddictionTouchCat.stages.2.description>-->
-    <SrThoughtHediffAddictionTouchCat.stages.2.description>求求你让我撸一下猫吧!
-    </SrThoughtHediffAddictionTouchCat.stages.2.description>
+    <SrThoughtHediffAddictionTouchCat.stages.1.description>Please let me touch the cat!</SrThoughtHediffAddictionTouchCat.stages.1.description>
     <!--    <SrThoughtHediffAddictionTouchRabbit.stages.2.label>撸兔子戒断</SrThoughtHediffAddictionTouchRabbit.stages.2.label>-->
-    <SrThoughtHediffAddictionTouchRabbit.stages.2.label>Rabbit withdrawal
-    </SrThoughtHediffAddictionTouchRabbit.stages.2.label>
+    <SrThoughtHediffAddictionTouchRabbit.stages.1.label>Rabbit withdrawal</SrThoughtHediffAddictionTouchRabbit.stages.1.label>
     <!--    <SrThoughtHediffAddictionTouchRabbit.stages.2.description>兔子!我要兔子!-->
-    <!--    </SrThoughtHediffAddictionTouchRabbit.stages.2.description>-->
-    <SrThoughtHediffAddictionTouchRabbit.stages.2.description>Rabbit! I want a rabbit!
-    </SrThoughtHediffAddictionTouchRabbit.stages.2.description>
+    <SrThoughtHediffAddictionTouchRabbit.stages.1.description>Rabbit! I want a rabbit!</SrThoughtHediffAddictionTouchRabbit.stages.1.description>
 </LanguageData>

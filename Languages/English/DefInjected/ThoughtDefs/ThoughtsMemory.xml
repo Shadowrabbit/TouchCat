@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
     <!--    <SrThoughtTouchCat.stages.1.label>撸了猫</SrThoughtTouchCat.stages.1.label>-->
-    <SrThoughtTouchCat.stages.1.label>touch cat</SrThoughtTouchCat.stages.1.label>
+    <SrThoughtTouchCat.stages.0.label>touch cat</SrThoughtTouchCat.stages.0.label>
     <!--    <SrThoughtTouchCat.stages.1.description>撸猫使我快乐</SrThoughtTouchCat.stages.1.description>-->
-    <SrThoughtTouchCat.stages.1.description>touch cat make me happy.</SrThoughtTouchCat.stages.1.description>
+    <SrThoughtTouchCat.stages.0.description>touch cat make me happy.</SrThoughtTouchCat.stages.0.description>
     <!--    <SrThoughtTouchRabbit.stages.1.label>撸了兔子</SrThoughtTouchRabbit.stages.1.label>-->
-    <SrThoughtTouchRabbit.stages.1.label>touch rabbit</SrThoughtTouchRabbit.stages.1.label>
+    <SrThoughtTouchRabbit.stages.0.label>touch rabbit</SrThoughtTouchRabbit.stages.0.label>
     <!--    <SrThoughtTouchRabbit.stages.1.description>是兔兔!毛茸茸的兔兔!awsl!</SrThoughtTouchRabbit.stages.1.description>-->
-    <SrThoughtTouchRabbit.stages.1.description>It's bunny! Furry bunny!</SrThoughtTouchRabbit.stages.1.description>
+    <SrThoughtTouchRabbit.stages.0.description>It's bunny! Furry bunny!</SrThoughtTouchRabbit.stages.0.description>
 </LanguageData>
