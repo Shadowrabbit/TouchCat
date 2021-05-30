@@ -47,5 +47,10 @@ namespace SR.ModRimWorldTouchCat
         public override string TipStringExtra => Need != null
             ? $"{"CreatesNeed".Translate()}:{Need.LabelCap}({Need.CurLevelPercentage.ToStringPercent("F0")})"
             : null;
+
+        /// <summary>
+        /// 需求类别改变
+        /// </summary>
+        public void Notify_NeedCategoryChanged() => pawn.health.Notify_HediffChanged(this);
     }
 }

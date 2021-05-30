@@ -13,11 +13,10 @@ using Verse;
 
 namespace SR.ModRimWorldTouchCat
 {
-	[DefOf]
-	public static class HediffDefOf
-	{
-		[UsedImplicitly] public static readonly HediffDef SrHediffAddictionTouchCat; //撸猫成瘾的buff
-		[UsedImplicitly] public static readonly HediffDef SrHediffAddictionTouchRabbit; //撸兔子成瘾的buff
-	}
+    [DefOf]
+    public static class HediffDefOf
+    {
+        [UsedImplicitly] public static readonly HediffDef SrHediffAddictionTouchCat; //撸猫成瘾的buff
+        [UsedImplicitly] public static readonly HediffDef SrHediffAddictionTouchRabbit; //撸兔子成瘾的buff
+    }
 }
-	

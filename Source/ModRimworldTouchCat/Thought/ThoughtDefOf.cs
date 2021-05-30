@@ -6,15 +6,16 @@
 //      /  \\        @Modified   2021-05-25 18:49:11
 //    *(__\_\        @Copyright  Copyright (c) 2021, Shadowrabbit
 // ******************************************************************
+
 using JetBrains.Annotations;
 using RimWorld;
 
 namespace SR.ModRimWorldTouchCat
 {
-	[DefOf]
-	public static class ThoughtDefOf
-	{
-		[UsedImplicitly] public static readonly ThoughtDef SrThoughtTouchCat; //撸猫后的回忆
-		[UsedImplicitly] public static readonly ThoughtDef SrThoughtTouchRabbit; //撸兔子后的回忆
-	}
+    [DefOf]
+    public static class ThoughtDefOf
+    {
+        [UsedImplicitly] public static readonly ThoughtDef SrThoughtTouchCat; //撸猫后的回忆
+        [UsedImplicitly] public static readonly ThoughtDef SrThoughtTouchRabbit; //撸兔子后的回忆
+    }
 }

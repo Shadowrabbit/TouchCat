@@ -9,11 +9,11 @@
 
 namespace SR.ModRimWorldTouchCat
 {
-	public static class ModDef
-	{
-		public const string KindDefNameCat = "Cat"; //猫的种族的名称
-		public const string KindDefNameRabbit = "Hare"; //兔子的种族名称
-		public const string NeedDefNameTouchCat = "SrNeedTouchCat"; //撸猫需求的名称
-		public const string NeedDefNameTouchRabbit = "SrNeedTouchRabbit"; //撸兔子需求的名称
-	}
+    public static class ModDef
+    {
+        public const string KindDefNameCat = "Cat"; //猫的种族的名称
+        public const string KindDefNameRabbit = "Hare"; //兔子的种族名称
+        public const string NeedDefNameTouchCat = "SrNeedTouchCat"; //撸猫需求的名称
+        public const string NeedDefNameTouchRabbit = "SrNeedTouchRabbit"; //撸兔子需求的名称
+    }
 }

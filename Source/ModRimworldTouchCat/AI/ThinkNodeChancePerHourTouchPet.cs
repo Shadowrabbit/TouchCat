@@ -13,19 +13,19 @@ using Verse.AI;
 
 namespace SR.ModRimWorldTouchCat
 {
-	[UsedImplicitly]
-	public class ThinkNodeChancePerHourTouchPet : ThinkNode_ChancePerHour
-	{
-		private const float MtbHoursTouchCat = 20f;
+    [UsedImplicitly]
+    public class ThinkNodeChancePerHourTouchPet : ThinkNode_ChancePerHour
+    {
+        private const float MtbHoursTouchCat = 20f;
 
-		/// <summary>
-		/// 每小时N分之一的概率触发撸猫
-		/// </summary>
-		/// <param name="pawn"></param>
-		/// <returns></returns>
-		protected override float MtbHours(Pawn pawn)
-		{
-			return MtbHoursTouchCat;
-		}
-	}
+        /// <summary>
+        /// 每小时N分之一的概率触发撸猫
+        /// </summary>
+        /// <param name="pawn"></param>
+        /// <returns></returns>
+        protected override float MtbHours(Pawn pawn)
+        {
+            return MtbHoursTouchCat;
+        }
+    }
 }
