@@ -2,7 +2,7 @@
 <Defs>
     <ThinkTreeDef>
         <defName>ThinkTreeTouchPet</defName>
-        <insertTag>Humanlike_PreMain</insertTag>
+        <insertTag>Humanlike_PostMentalState</insertTag>
         <thinkRoot Class="ThinkNode_Priority">
             <subNodes>
                 <!--渴望撸猫-->

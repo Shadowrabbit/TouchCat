@@ -31,6 +31,8 @@ namespace SR.ModRimWorldTouchCat
             CalcJoin();
             //计算需求
             CalcNeedTouchCat();
+            //增加驯兽经验
+            pawn.skills.Learn(SkillDefOf.Animals, XpSkillAnimalLearn);
         }
 
         /// <summary>
@@ -71,6 +73,12 @@ namespace SR.ModRimWorldTouchCat
                 return;
             }
 
+            //羁绊动物
+            if (Pet.playerSettings?.Master != null)
+            {
+                return;
+            }
+            
             var randomNum = Random.Range(0f, 1f);
             if ((randomNum > ChanceToJoin))
             {

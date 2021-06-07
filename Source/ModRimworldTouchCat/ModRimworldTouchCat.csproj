@@ -52,6 +52,7 @@
         <Compile Include="AI\ThinkNodeConditionalSatisfyTouchCat.cs" />
         <Compile Include="AI\ThinkNodeConditionalSatisfyTouchRabbit.cs" />
         <Compile Include="Def\ModDef.cs" />
+        <Compile Include="Extention\PawnExtention.cs" />
         <Compile Include="Hediff\HediffAddictionTouchPet.cs" />
         <Compile Include="Hediff\HediffDefOf.cs" />
         <Compile Include="Job\JobDefOf.cs" />

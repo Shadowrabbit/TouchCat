@@ -15,8 +15,9 @@ namespace SR.ModRimWorldTouchCat
 {
     public abstract class JobDriverTouchPet : JobDriver
     {
-        protected const float ChanceToAddiction = 0.1f; //触发成瘾的概率
-        protected const float ChanceToJoin = 0.2f; //触发宠物加入殖民者的概率
+        protected const float ChanceToAddiction = 0.05f; //触发成瘾的概率
+        protected const float XpSkillAnimalLearn = 200f; //每次触摸动物增加的技能经验
+        protected const float ChanceToJoin = 0.15f; //触发宠物加入殖民者的概率
         private const int InteractiveTick = 60; //交互时长
         private readonly Toil _toilCacl; //结算步骤
         protected Pawn Pet => (Pawn) job.GetTarget(TargetIndex.A); //宠物
@@ -36,7 +37,7 @@ namespace SR.ModRimWorldTouchCat
         /// <returns></returns>
         public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
-            return true;
+            return pawn.Reserve(job.targetA, job, errorOnFailed: errorOnFailed);
         }
 
         /// <summary>

@@ -15,23 +15,23 @@ using Verse.AI;
 
 namespace SR.ModRimWorldTouchCat
 {
-    [UsedImplicitly]
-    public class ThinkNodeConditionalSatisfyTouchCat : ThinkNode_Conditional
-    {
-        //应该满足需求
-        private static bool ShouldSatisfy(Need need) => need is NeedTouchPet needTouchPet &&
-                                                        needTouchPet.CurCategory <= DrugDesireCategory.Desire;
+	[UsedImplicitly]
+	public class ThinkNodeConditionalSatisfyTouchCat : ThinkNode_Conditional
+	{
+		//应该满足需求
+		private static bool ShouldSatisfy(Need need) => need is NeedTouchPet needTouchPet &&
+		                                                needTouchPet.CurCategory <= DrugDesireCategory.Desire;
 
-        /// <summary>
-        /// 是否满足条件
-        /// </summary>
-        /// <param name="pawn"></param>
-        /// <returns></returns>
-        protected override bool Satisfied(Pawn pawn)
-        {
-            var allNeeds = pawn.needs.AllNeeds;
-            return Enumerable.Any(allNeeds,
-                need => need.def.defName.Equals(ModDef.NeedDefNameTouchCat) && ShouldSatisfy(need));
-        }
-    }
+		/// <summary>
+		/// 是否满足条件
+		/// </summary>
+		/// <param name="pawn"></param>
+		/// <returns></returns>
+		protected override bool Satisfied(Pawn pawn)
+		{
+			var allNeeds = pawn.needs.AllNeeds;
+			return Enumerable.Any(allNeeds,
+				need => need.def.defName.Equals(ModDef.NeedDefNameTouchCat) && ShouldSatisfy(need));
+		}
+	}
 }
