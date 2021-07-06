@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThinkTreeDef>
+        <defName>ThinkTreeTouchPet</defName>
+        <insertTag>Humanlike_PostMentalState</insertTag>
+        <thinkRoot Class="ThinkNode_Priority">
+            <subNodes>
+                <!--渴望撸猫-->
+                <li Class="SR.ModRimWorldTouchCat.ThinkNodeConditionalSatisfyTouchCat">
+                    <subNodes>
+                        <!--撸猫-->
+                        <li Class="SR.ModRimWorldTouchCat.JobGiverTouchCat"/>
+                    </subNodes>
+                </li>
+                <!--渴望撸兔子-->
+                <li Class="SR.ModRimWorldTouchCat.ThinkNodeConditionalSatisfyTouchRabbit">
+                    <subNodes>
+                        <!--撸兔子-->
+                        <li Class="SR.ModRimWorldTouchCat.JobGiverTouchRabbit"/>
+                    </subNodes>
+                </li>
+                <li Class="SR.ModRimWorldTouchCat.ThinkNodeChancePerHourTouchPet">
+                    <subNodes>
+                        <!--撸猫-->
+                        <li Class="SR.ModRimWorldTouchCat.JobGiverTouchCat"/>
+                        <!--撸兔子-->
+                        <li Class="SR.ModRimWorldTouchCat.JobGiverTouchRabbit"/>
+                    </subNodes>
+                </li>
+            </subNodes>
+        </thinkRoot>
+    </ThinkTreeDef>
+</Defs>

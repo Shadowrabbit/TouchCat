@@ -1,0 +1,12 @@
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Assemblies\ModRimWorldTouchCat.dll
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Assemblies\ModRimWorldTouchCat.pdb
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.csprojAssemblyReference.cache
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.csproj.CoreCompileInputs.cache
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.dll
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Assemblies\ModRimWorldTouchCat.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Assemblies\ModRimWorldTouchCat.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldTouchCat\Source\ModRimWorldTouchCat\obj\Debug\ModRimWorldTouchCat.pdb
