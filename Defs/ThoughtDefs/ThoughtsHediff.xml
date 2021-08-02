@@ -11,8 +11,8 @@
                 <visible>false</visible>
             </li>
             <li>
-                <label>撸猫戒断</label>
-                <description>求求你让我撸一下猫吧!</description>
+                <label>Cat withdrawal</label>
+                <description>Please let me touch the cat!</description>
                 <baseMoodEffect>-30</baseMoodEffect>
             </li>
         </stages>
@@ -28,8 +28,8 @@
                 <visible>false</visible>
             </li>
             <li>
-                <label>恋兔戒断</label>
-                <description>兔子!我要兔子!</description>
+                <label>Rabbit withdrawal</label>
+                <description>Rabbit! I want a rabbit!</description>
                 <baseMoodEffect>-30</baseMoodEffect>
             </li>
         </stages>

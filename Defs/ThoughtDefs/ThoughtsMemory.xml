@@ -7,8 +7,8 @@
         <durationDays>3.0</durationDays>
         <stages>
             <li>
-                <label>撸了猫</label>
-                <description>撸猫使我快乐</description>
+                <label>touch cat</label>
+                <description>touch cat make me happy.</description>
                 <baseMoodEffect>10</baseMoodEffect>
             </li>
         </stages>
@@ -20,8 +20,8 @@
         <durationDays>3.0</durationDays>
         <stages>
             <li>
-                <label>撸了兔子</label>
-                <description>是兔兔!毛茸茸的兔兔!awsl!</description>
+                <label>touch rabbit</label>
+                <description>It's bunny! Furry bunny!</description>
                 <baseMoodEffect>15</baseMoodEffect>
             </li>
         </stages>

@@ -3,15 +3,15 @@
     <NeedDef ParentName="DrugAddictionNeedBase">
         <defName>SrNeedTouchCat</defName>
         <needClass>SR.ModRimWorldTouchCat.NeedTouchPet</needClass>
-        <label>撸猫成瘾</label>
-        <description>由于撸猫上瘾,角色产生了定期撸猫的渴望</description>
+        <label>Cat addiction</label>
+        <description>Due to the addiction of touching cats, the character has a desire to touch cats regularly.</description>
         <listPriority>20</listPriority>
     </NeedDef>
     <NeedDef ParentName="DrugAddictionNeedBase">
         <defName>SrNeedTouchRabbit</defName>
         <needClass>SR.ModRimWorldTouchCat.NeedTouchPet</needClass>
-        <label>撸兔子成瘾</label>
-        <description>由于撸兔子上瘾,角色产生了定期撸兔子的渴望</description>
+        <label>Rabbit addiction</label>
+        <description>Due to the addiction of touching rabbits, the character has a desire to touch rabbits regularly.</description>
         <listPriority>20</listPriority>
     </NeedDef>
 </Defs>
