@@ -89,6 +89,12 @@ namespace SR.ModRimWorldTouchCat
 					continue;
 				}
 
+				//当前动物与玩家敌对
+				if (anyPawn.Faction != null && anyPawn.Faction.HostileTo(Faction.OfPlayer))
+				{
+					continue;
+				}
+				
 				cacheDistance = distance;
 				targetAnimal = anyPawn;
 			}
